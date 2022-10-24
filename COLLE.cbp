@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="COLLE" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/COLLE" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/COLLE" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-mms-bitfields" />
+			<Add option="-Wall" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/GTK/include" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/GTK/include/gtk-3.0" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/GTK/include/cairo" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/GTK/include/gdk" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/GTK/include/glib-2.0" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/GTK/lib/glib-2.0/include" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/GTK/include/pango-1.0" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/GTK/lib/gtk-3.0/include" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/GTK/include/atk-1.0" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/GTK/include/gdk-pixbuf-2.0" />
+		</Compiler>
+		<Linker>
+			<Add library="gtk-win32-3.0" />
+			<Add library="gobject-2.0" />
+			<Add library="glib-2.0" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/GTK/lib" />
+		</Linker>
+		<Unit filename="macro/biblio.h" />
+		<Unit filename="macro/biblioth.h" />
+		<Unit filename="macro/bibliotheque.h" />
+		<Unit filename="macro/menu.xml" />
+		<Unit filename="macro/menuu.h" />
+		<Unit filename="macro/prAbout.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/prAbout.h" />
+		<Unit filename="macro/prAlignement.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/prAlignement.h" />
+		<Unit filename="macro/prBox.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/prBox.h" />
+		<Unit filename="macro/prButton.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/prButton.h" />
+		<Unit filename="macro/prCheckButton.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/prCheckButton.h" />
+		<Unit filename="macro/prColor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/prColor.h" />
+		<Unit filename="macro/prCombobox.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/prCombobox.h" />
+		<Unit filename="macro/prDialog.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/prDialog.h" />
+		<Unit filename="macro/prEntry.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/prEntry.h" />
+		<Unit filename="macro/prFixed.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/prFixed.h" />
+		<Unit filename="macro/prForm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/prForm.h" />
+		<Unit filename="macro/prFrame.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/prFrame.h" />
+		<Unit filename="macro/prGrid.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/prGrid.h" />
+		<Unit filename="macro/prIcon.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/prIcon.h" />
+		<Unit filename="macro/prImage.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/prImage.h" />
+		<Unit filename="macro/prLabel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/prLabel.h" />
+		<Unit filename="macro/prList.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/prList.h" />
+		<Unit filename="macro/prMenu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/prMenu.h" />
+		<Unit filename="macro/prMessage.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/prMessage.h" />
+		<Unit filename="macro/prNotebook.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/prNotebook.h" />
+		<Unit filename="macro/prPaned.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/prPaned.h" />
+		<Unit filename="macro/prRadioButton.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/prRadioButton.h" />
+		<Unit filename="macro/prScrolledWindow.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/prScrolledWindow.h" />
+		<Unit filename="macro/prStoreTypes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/prStoreTypes.h" />
+		<Unit filename="macro/prTable.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/prTable.h" />
+		<Unit filename="macro/prToolPallet.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/prToolPallet.h" />
+		<Unit filename="macro/prTreeView.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/prTreeView.h" />
+		<Unit filename="macro/prWindow.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/prWindow.h" />
+		<Unit filename="macro/pr_Boite_Outil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/pr_Boite_Outil.h" />
+		<Unit filename="macro/pr_assistant.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/pr_assistant.h" />
+		<Unit filename="macro/pr_help.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/pr_help.h" />
+		<Unit filename="macro/pr_spin.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/pr_spin.h" />
+		<Unit filename="macro/str_pr_Check_Button.h" />
+		<Unit filename="macro/str_pr_about.h" />
+		<Unit filename="macro/str_pr_alignement.h" />
+		<Unit filename="macro/str_pr_assistant.h" />
+		<Unit filename="macro/str_pr_box.h" />
+		<Unit filename="macro/str_pr_button.h" />
+		<Unit filename="macro/str_pr_color.h" />
+		<Unit filename="macro/str_pr_combobox.h" />
+		<Unit filename="macro/str_pr_commande.h" />
+		<Unit filename="macro/str_pr_console.h" />
+		<Unit filename="macro/str_pr_dialog.h" />
+		<Unit filename="macro/str_pr_entry.h" />
+		<Unit filename="macro/str_pr_fixed.h" />
+		<Unit filename="macro/str_pr_formulaire.h" />
+		<Unit filename="macro/str_pr_frame.h" />
+		<Unit filename="macro/str_pr_grid.h" />
+		<Unit filename="macro/str_pr_icon.h" />
+		<Unit filename="macro/str_pr_image.h" />
+		<Unit filename="macro/str_pr_label.h" />
+		<Unit filename="macro/str_pr_list.h" />
+		<Unit filename="macro/str_pr_message.h" />
+		<Unit filename="macro/str_pr_notebook.h" />
+		<Unit filename="macro/str_pr_paned.h" />
+		<Unit filename="macro/str_pr_pos.h" />
+		<Unit filename="macro/str_pr_radio_button.h" />
+		<Unit filename="macro/str_pr_spin.h" />
+		<Unit filename="macro/str_pr_store_types.h" />
+		<Unit filename="macro/str_pr_table.h" />
+		<Unit filename="macro/str_pr_toolpallet.h" />
+		<Unit filename="macro/str_pr_treeview.h" />
+		<Unit filename="macro/str_pr_window.h" />
+		<Unit filename="macro/str_scrolled_window.h" />
+		<Unit filename="macro/util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="macro/util.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

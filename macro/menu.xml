@@ -1,0 +1,41 @@
+<ui>
+  <menubar>
+    <menu action="FichierMenuAction" >
+      <menuitem action="NouveauAction" />
+      <menuitem action="OuvrirAction" />
+      <menuitem action="EnregistrerAction" />
+      <menuitem action="CloseAction" />
+      <menuitem action="QuitterAction" />
+    </menu>
+    <menu action="EditMenuAction">
+      <menuitem action="CopyAction" />
+      <menuitem action="CutAction" />
+      <menuitem action="PasteAction" />
+    </menu>
+    <menu action="ViewMenuAction">
+      <menuitem action="ConsolAction" />
+      <menuitem action="GraphAction" />
+    </menu>
+    <menu action="AideMenuAction">
+      <menuitem action="AideAction" />
+      <menuitem action="AproposAction" />
+    </menu>
+  </menubar>
+  <toolbar>
+      <toolitem action="NouveauAction" />
+      <toolitem action="OuvrirAction" /> 
+      <toolitem action="EnregistrerAction" />
+      <toolitem action="CloseAction" />
+    <separator />
+       <toolitem action="CopyAction" />
+       <toolitem action="CutAction" />
+       <toolitem action="PasteAction" />
+    <separator />
+      <toolitem action="ConsolAction" />
+      <toolitem action="GraphAction" /> 
+    <separator />
+      <toolitem action="AideAction" />
+      <toolitem action="AproposAction" />
+      <toolitem action="QuitterAction" />
+  </toolbar>
+</ui>
